@@ -1,0 +1,13 @@
+Command:
+gcc zombie_prevention.c -o zombie_prevention
+Explanation:
+This command compiles the C program that demonstrates zombie process prevention.
+
+Command:
+./zombie_prevention
+Explanation:
+The program creates multiple child processes using fork(). Each child exits after execution, and the parent process uses wait() to clean up terminated child processes.
+
+Concept:
+Zombie processes are prevented because the parent explicitly waits for each child process and prints the PID of the cleaned child.
+
