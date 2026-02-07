@@ -1,0 +1,20 @@
+Command:
+chmod +x analyze.sh
+Explanation:
+This command gives execute permission to the shell script so that it can be run directly.
+
+Command:
+./analyze.sh sample.txt
+Explanation:
+The script identified the argument as a file and displayed the number of lines, words, and characters using the wc command.
+
+Command:
+./analyze.sh testdir
+Explanation:
+The script identified the argument as a directory and counted the total files and number of .txt files using find and wc.
+
+Command:
+./analyze.sh wrongpath
+Explanation:
+The script displayed an error message because the given path does not exist.
+
