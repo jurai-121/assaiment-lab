@@ -1,0 +1,15 @@
+Command:
+chmod +x sync.sh
+Explanation:
+This command gives execute permission to the directory comparison shell script.
+
+Command:
+./sync.sh
+Explanation:
+The script compares dirA and dirB, lists files that exist only in one directory, and checks whether files with the same name have matching content using the cmp command.
+
+Command:
+cmp dirA/common.txt dirB/common.txt
+Explanation:
+The cmp command compares the contents of two files and confirms whether they are identical or different.
+
