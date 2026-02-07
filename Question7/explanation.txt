@@ -1,0 +1,25 @@
+Command:
+chmod +x patterns.sh
+Explanation:
+This command gives execute permission to the shell script so it can be run from the terminal.
+
+Command:
+./patterns.sh
+Explanation:
+The script reads words from input.txt, converts them to lowercase for case-insensitive checking, and classifies them using regular expressions.
+
+Command:
+grep -Eq '^[aeiou]+$'
+Explanation:
+This pattern matches words containing only vowels.
+
+Command:
+grep -Eq '^[bcdfghjklmnpqrstvwxyz]+$'
+Explanation:
+This pattern matches words containing only consonants.
+
+Command:
+grep -Eq '^[bcdfghjklmnpqrstvwxyz][a-z]*$'
+Explanation:
+This pattern identifies words starting with a consonant, and additional checks confirm mixed vowel and consonant content.
+
