@@ -1,0 +1,20 @@
+Command:
+chmod +x log_analyze.sh
+Explanation:
+This command gives execute permission to the shell script so it can be executed directly.
+
+Command:
+./log_analyze.sh system.log
+Explanation:
+The script validated the log file, counted total entries and different log levels, displayed the most recent ERROR message, and generated a summary report file.
+
+Command:
+cat logsummary_2025-01-12.txt
+Explanation:
+This command displays the contents of the generated log summary report file.
+
+Command:
+./log_analyze.sh wrong.log
+Explanation:
+The script displayed an error message because the specified log file does not exist.
+
