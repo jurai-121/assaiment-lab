@@ -1,0 +1,16 @@
+Command:
+chmod +x bg_move.sh
+Explanation:
+This command gives execute permission to the background file move shell script.
+
+Command:
+./bg_move.sh testdir
+Explanation:
+The script moves each file in the directory to a backup subdirectory using background processes and displays the PID of each process using $!.
+
+Command:
+$$ and wait
+Explanation:
+The $$ variable displays the parent script PID, and the wait command ensures all background processes complete before the script exits.
+
+
