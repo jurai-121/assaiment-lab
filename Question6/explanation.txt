@@ -1,0 +1,16 @@
+Command:
+chmod +x metrics.sh
+Explanation:
+This command gives execute permission to the text metrics shell script.
+
+Command:
+./metrics.sh
+Explanation:
+The script processes input.txt using pipes and commands such as tr, sort, uniq, and wc to calculate the longest word, shortest word, average word length, and total number of unique words.
+
+Command:
+tr -c 'a-zA-Z' '\n' < input.txt
+Explanation:
+This command converts the text into individual words by replacing non-alphabetic characters with new lines.
+
+

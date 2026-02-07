@@ -1,0 +1,5 @@
+Shell scripting is powerful and fun
+Shell scripting helps automate tasks
+Automation makes life easier
+
+
