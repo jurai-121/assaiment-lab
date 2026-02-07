@@ -1,0 +1,13 @@
+Command:
+gcc signal_handling.c -o signal_handling
+Explanation:
+This command compiles the C program that demonstrates signal handling using SIGTERM and SIGINT.
+
+Command:
+./signal_handling
+Explanation:
+The parent process runs indefinitely and waits for signals. One child sends SIGTERM after 5 seconds, and another child sends SIGINT after 10 seconds.
+
+Concept:
+The parent process handles each signal differently using custom signal handler functions and exits gracefully when a signal is received.
+
