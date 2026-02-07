@@ -1,0 +1,20 @@
+Command:
+chmod +x emailcleaner.sh
+Explanation:
+This command gives execute permission to the email cleaner shell script.
+
+Command:
+./emailcleaner.sh
+Explanation:
+The script processed emails.txt, extracted valid email addresses using grep with regular expressions, removed duplicates using sort and uniq, and stored results in valid.txt and invalid.txt.
+
+Command:
+cat valid.txt
+Explanation:
+This command displays all valid email addresses after removing duplicate entries.
+
+Command:
+cat invalid.txt
+Explanation:
+This command displays email addresses that do not match the required valid format.
+

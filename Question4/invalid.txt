@@ -1,0 +1,5 @@
+invalidemail.com
+test@domain
+user@123.com
+hello.world@gmail.com
+
